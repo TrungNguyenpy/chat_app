@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    flex: 1;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+.content {
+    flex: 18;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.chatWindow-container {
+    height: 100vh;
+}

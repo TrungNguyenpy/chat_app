@@ -1,0 +1,69 @@
+/* Login.module.scss */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: -5px;
+    font-size: 3rem;
+    color: #333;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: #4caf50;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.social-login {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+}
+
+.social-login button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.social-login .google-btn {
+    background-color: #db4437;
+    color: white;
+}
+
+.social-login .google-btn:hover {
+    background-color: #c1351d;
+}
+
+.social-login .facebook-btn {
+    background-color: #3b5998;
+    color: white;
+}
+
+.social-login .facebook-btn:hover {
+    background-color: #2d4373;
+}
