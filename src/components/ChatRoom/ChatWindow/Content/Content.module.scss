@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btnSend {
+    background: rgb(247, 126, 13);
+    color: white;
+    font-size: 14px;
+    padding: 8px 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    &:hover {
+        background: rgba(247, 126, 13, 50%);
+    }
+}
+
+.content {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    padding: 11px;
+    justify-content: flex-end;
+}
+
+.formStyle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 8px;
+    width: 100%;
+
+    .formItem {
+        flex: 1;
+        margin-bottom: 0;
+    }
+
+    .formInput {
+        width: 100%;
+        padding: 6px 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+        font-size: 14px;
+
+        &:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 3px rgba(0, 123, 255, 0.3);
+        }
+    }
+}
+
+.message {
+    max-height: 100%;
+    overflow-y: auto;
+}

@@ -1,0 +1,56 @@
+.room-container {
+    border-radius: 5px;
+    padding: 10px;
+    width: 250px;
+}
+
+.collapse-button {
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px;
+    font-weight: bold;
+    background: transparent !important;
+    &:hover {
+        opacity: 0.7;
+    }
+}
+
+.room-list {
+    margin-top: 10px;
+}
+
+.room-link {
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: #4159b8;
+    transition: opacity 0.3s;
+
+    &:hover {
+        opacity: 0.7;
+        cursor: pointer;
+    }
+}
+
+.add-room {
+    background: transparent !important;
+    border: none;
+    color: #fdfdfd;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    transition: opacity 0.3s;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}

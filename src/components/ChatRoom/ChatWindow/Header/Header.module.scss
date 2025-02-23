@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headerInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.headerTitle {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 2px;
+    color: rgb(1, 37, 25);
+}
+
+.headerDes {
+    font-size: 18px;
+    color: #666;
+}
+
+.memberList {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.btnAdd {
+    background: transparent;
+    color: black;
+    font-size: 12px;
+    padding: 6px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+    &:hover {
+        background: transparent !important;
+        color: rgb(89, 87, 87);
+    }
+}
+
+.avatarGroup {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.avatar {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #ccc;
+    background-size: cover;
+    background-position: center;
+}
+
+.avatar.more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    background: gray;
+}

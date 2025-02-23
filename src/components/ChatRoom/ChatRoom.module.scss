@@ -1,0 +1,12 @@
+.chatRoom-container {
+    display: flex;
+    height: 100vh; // Chiều cao toàn màn hình
+}
+
+.sideBar {
+    flex: 6;
+}
+
+.chatWindow {
+    flex: 18;
+}

@@ -1,0 +1,64 @@
+.user-container {
+    width: 100%; /* Chiếm toàn bộ chiều rộng */
+    height: 100%; /* Chiếm toàn bộ chiều cao */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background: transparent;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.user-avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    background-color: #ccc;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.user-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.user-name {
+    font-weight: 2rem;
+    font-size: 14px;
+    color: white;
+    white-space: nowrap;
+}
+
+.user-status {
+    font-size: 14px;
+    color: #666;
+    margin-top: 2px;
+}
+
+.logout-btn {
+    padding: 12px 22px;
+    background: transparent;
+    color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    white-space: nowrap;
+}
+
+.logout-btn:hover {
+    background-color: #3e0e40;
+}

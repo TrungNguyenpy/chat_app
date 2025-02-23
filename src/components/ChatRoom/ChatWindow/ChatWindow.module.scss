@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chatWindow-container {
+    position: relative;
+}
+.header {
+    flex: 1;
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+.content {
+    flex: 18;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.3; /* Điều chỉnh độ mờ của ảnh */
+}
+
+.chatWindow-container {
+    height: 100vh;
+}
